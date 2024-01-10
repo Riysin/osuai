@@ -13,7 +13,7 @@ async def main():
                 hit100 = await hit_score(websocket, 100)
                 hit50 = await hit_score(websocket, 50)
                 hit0 = await hit_score(websocket, 0)
-                print('wowi')
+                print('wowwi')
                 print(f"300:{hit300}, 100:{hit100}, 50:{hit50}, miss:{hit0}")
             else:
                 print('test')
