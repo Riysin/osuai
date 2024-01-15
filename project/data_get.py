@@ -2,7 +2,7 @@ import websockets
 import json
 
 async def connect_websocket(uri):
-    return await websockets.connect(uri, timeout = 0.1)
+    return await websockets.connect(uri, timeout = 0)
 
 async def get_data(websocket):
     data = await websocket.recv()
